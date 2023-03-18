@@ -68,7 +68,7 @@ function BasicExample() {
         
         // return false;
 
-        let urlFetch = "http://localhost:3001/cards";
+        let urlFetch = "http://localhost:3001/paypal";
             test = await fetch(urlFetch , {
                         method: 'POST',
                         // mode: 'cors',
